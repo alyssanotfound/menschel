@@ -1,0 +1,355 @@
+
+
+
+
+body {
+	font-family: 'Karla', Helvetica, Arial, sans-serif;
+}
+
+nav {
+	padding-top:20px;
+}
+
+a { 
+    text-decoration: none;
+    color:black;
+}
+
+.lightlink a { 
+    color:blanchedalmond;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 17px;
+}
+p {
+	line-height: 24px;
+}
+ul {
+	-webkit-padding-start: 20px;
+}
+
+.playbutton {
+	padding-top: 25%;
+}
+
+.introbckgroundimg {
+    display: table;
+    width: 99%;
+    height: auto;
+    text-align: center;
+    background: url(../img/stills/paintings_I_grad.png) no-repeat center top scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
+
+.imageTitle {
+	font-size: 40px;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	padding-top:5%;
+	text-shadow: 4px 4px #000;
+	line-height: 40px;
+}
+
+#footer {
+	height: 40px;
+	width:100%;
+}
+
+.centercontainer {
+	position: relative;
+	margin:0px auto;
+	width:900px;
+	display:table;
+}
+
+.col {
+	width: 270px;
+	float: left;
+	margin-left:15px;
+	margin-right:15px;	
+}
+.righttwocol {
+	margin-left:315px;
+}
+
+.twocol {
+	width:420px;
+	float:left;
+	padding-top: 20px;
+  	margin-right:15px;
+  	margin-left:15px;
+}
+
+.col img {
+	display:block;
+    margin:auto;
+}
+
+.intro-text {
+	margin-top:150px;
+	margin-left:80px;
+	margin-right:80px;
+	font-size: 24px;
+	line-height: 38px;
+	
+}
+
+.backbeige  {
+	background: blanchedalmond;
+	padding:2px;
+}
+
+.bold {
+	font-weight: 700;
+	
+}
+
+.big {
+	font-size: 22px;
+}
+.bigger {
+	font-size: 35px;
+}
+
+.lefthome {
+	float: left;
+}
+.rtpeople {
+	float: right;
+	height:140px;
+}
+.moveupbodylanding{
+	margin-top:-110px;
+}
+.moveupbody{
+	margin-top:-110px;
+}
+.footer{
+	margin-top:80px;
+}
+
+div.menu-bar {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	/* menu header width and height */
+	height: 30px;
+	width: 96%;
+	z-index:100;
+}
+
+div.menu-bar ul ul {
+  display: none;
+  text-decoration: none;
+  position: static;
+  height: auto;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+
+div.menu-bar ul li {
+  list-style-type: none;
+  padding-left:50px;
+  padding-right:10px;
+}
+
+div.menu-bar li > ul {
+  display: none;
+}
+
+div.menu-bar li:hover > ul {
+  display: block;
+  position: absolute;
+  list-style-type: none;
+  padding:0;
+
+}
+
+div.menu-bar ul ul li:hover {
+	background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 1.0));
+}
+
+div.menu-bar ul ul li {
+	
+	float: none;
+	display: block;
+	width: 100%;
+	border: none;
+}
+
+div.menu-bar ul li li {
+    margin-top:4px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow: hidden;
+    color:blanchedalmond;
+}
+div.menu-bar ul li li a {
+    color:blanchedalmond;
+    text-shadow: 1px 1px #000;
+}
+
+.backImg {
+	width:270px;
+	height:152px;
+}
+
+.backImg:hover {
+	background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 1.0));
+}
+
+/*FOR VID IMAGE LINKS*/
+
+.backImg2 {
+	width:420px;
+	height:308px;
+}
+
+.williamImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/landscape/william.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.eboImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/landscape/painting.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.kateImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/landscape/kate.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.nanaImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/landscape/nkb.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.alexImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/landscape/shoes.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.edemImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/landscape/edem.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+/*VIDEO IMAGE LINKS */
+.nanaVidImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/video/vid1.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+.compVidImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/video/vid2.png) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.landingheaders {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .centercontainer {
+	width:300px;	
+	}
+  .col {
+  	margin-left:15px;
+  	margin-right:0;
+  }
+  .twocol {
+  	width: 270px;
+  	margin-left:15px;
+  	margin-right:0;
+  }
+
+  .backImg2 {
+	width:270px;
+	height:198px;
+  }
+  .intro-text {
+	font-size: 15px;
+	margin-left:30px;
+	margin-right:30px;
+  }
+  .intro-text .bold {
+	font-size: 15px;
+  }
+  
+  div.menu-bar ul li {
+	padding:10px;
+  }
+
+  div.menu-bar {
+	height: 40px;
+	width: 100%;
+	z-index:100;
+  }
+
+  div.menu-bar ul li li {
+    display:none;
+  }
+
+  .landingheaders {
+  	display: inline;
+  }
+  .moveupbody{
+	margin-top:-130px;
+}
+  .moveupbodylanding{
+	margin-top:-220px;
+}
+  #people {
+  	margin-top:30px;
+  }
+  .introbckgroundimg {
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.playbutton {
+	padding-top: 18%;
+}
+}
